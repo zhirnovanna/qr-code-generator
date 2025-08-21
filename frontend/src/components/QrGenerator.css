@@ -1,0 +1,145 @@
+.qr-generator-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.qr-generator {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.qr-generator h1 {
+  margin-bottom: 25px;
+  color: #111;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.qr-result {
+  margin-top: 20px;
+}
+
+.qr-result img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #007bff;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.qr-result h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+}
+
+.qr-text {
+  margin-top: 10px;
+  color: #222;
+  font-size: 14px;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.download-btn {
+  display: block;
+  margin: 15px auto 0;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  text-decoration: underline;
+}
+
+/* Historique */
+.history {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.history h3 {
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.history-list {
+  list-style: none;
+  padding: 0;
+}
+
+.history-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.history-item p {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #222;
+}
+
+.history-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.history-link:hover {
+  text-decoration: underline;
+}
+
+.qr-preview {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 10px;
+}
