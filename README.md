@@ -1,8 +1,11 @@
 # 📱 QR Code Generator — Laravel + Vue
 
-Une application fullstack pour générer, télécharger et garder un historique de QR Codes.  
+Une application fullstack pour générer, télécharger et garder un historique de QR Codes.
 Backend en **Laravel (PHP 10)** et frontend en **Vue 3 (Vite)**.
 
+## 🖼️ Aperçu
+
+![screenshot](frontend/public/screenshot.png)
 ---
 
 ## 🚀 Installation rapide
